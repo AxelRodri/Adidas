@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+a{
+    color: black;
+}
+.nav__pago{
+    background-color: black;
+    color: white;
+    text-align: center;
+    height: 25px;
+    padding-top: 0.8%;
+    font-size: 70%;
+    font-weight: bolder;
+}
+.nav__header{
+    background-color: rgb(240, 238, 234);
+    display: flex;
+}
+.nav__contenedor{
+    flex-direction: column;
+    width: 100%;
+}
+.header__seccionesAyuda{
+    display: flex;
+    justify-content: end;
+    gap: 20px;
+    padding-top: 0.5%;
+    color: dimgrey;
+    margin-right: 1%;
+}
+.nav__opcionesAyuda{
+    color: aliceblue;
+}
+.nav_opcionesBotonAyuda{
+    color: rgb(162, 162, 165);
+}
+.nav__headerSecciones{
+    display: flex;
+    justify-content: center;
+}
+.header__seccionesMas{
+    display: flex;
+    justify-content: space-around;
+    gap: 5%;
+    color: black;
+    margin-top: 1%;
+}
+
+.boton__accion{
+    margin-top: 1%;
+    margin-left: 5%;
+}
+.seccionesRemarcadas{
+    font-weight: bolder;
+}
+.imagen__logo{
+    margin: 0.5%;
+    width: 60px;
+    height: 60px;
+}
+img{
+    padding-left: 5%;
+    width: 90px;
+    height: 90px;
+}
+.main__seccion{
+    background-image: url(img/fondo.jpg);
+    height: 800px;
+    display: flex;
+    color: white;
+    text-align: center;
+    padding-left: 10%;
+}
+.main__contenedor{
+    justify-content: space-between;
+}
+.main__tituloPrincipal{
+    padding-top: 60%;
+    font-size: 40px;
+    text-align: left;
+    width: 500px;
+}
+.main__descripcionCamiseta{
+    padding-top: 4%;
+    text-align: left;
+}
+.main__camiseta{
+    text-align: left;
+    padding-top: 4%;
+    text-decoration:underline;
+    font-weight: 900;
+}
+.main__botonVerCamiseta{
+    color: white;
+}
+.main__conoceMas{
+    text-align: left;
+    padding-top: 4%;
+    text-decoration:underline;
+    font-weight: 900;
+}
+.main__botonConoceMas{
+    color: white;
+}
+.imagen__Messi{
+    width: 95%;
+    height: 93.5%;
+    padding-top: 8.5%;
+    padding-left: 19%;
+
+}
+.imagen__Julian{
+    width: 60%;
+    height: 50%;
+    padding-top: 10%;
+}
+.imagen__Botines{
+    width: 40%;
+    height: 37%;
+    padding-left: 22%;
+    padding-top: 6.4%;
+}
+@media (max-width: 1000px) {
+    .tercerContenedor{
+        width: 0;
+    }
+}
